@@ -1,0 +1,57 @@
+/* Global */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Intro Page */
+.title {
+    height: 33vh;
+    width: 100%;
+}
+
+.title-text {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .intro-img {
+    background-image: url('../img/hero-intro.jpg');
+    height: 40vh;
+    width: 100%;
+    background-attachment: fixed;
+ }
+
+ .intro{
+    text-align: center;
+    font-size: 1.25em;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+ }
+
+.intro-text {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.start-btn {
+    border-style: none;
+    background-color: #1fa87b;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.btn-a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.start-btn:hover {
+    background-color: #238f6b;
+}
