@@ -4,7 +4,7 @@ body {
     padding: 0;
 }
 
-/* Intro Page */
+/*----- Intro Page -----*/
 .title {
     height: 33vh;
     width: 100%;
@@ -17,7 +17,7 @@ body {
     align-items: center;
 }
  .intro-img {
-    background-image: url('../img/hero-intro.jpg');
+    background-image: url('../img/hero-intro(3).jpg');
     height: 40vh;
     width: 100%;
     background-attachment: fixed;
@@ -54,4 +54,46 @@ body {
 
 .start-btn:hover {
     background-color: #238f6b;
+}
+
+/* -----Page One----- */
+header {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar {
+    height: 70px;
+}
+
+.nav-list {
+    width: 80%;
+}
+
+.list-items {
+    list-style-type: none;
+
+}
+
+.hero-img {
+    background-image: url('../img/hero-intro(3).jpg');
+    height: 40vh;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.meat {
+    width: 100%;
+    height: 400px;
+}
+
+.ketchup {
+    height: 70px;
+    width: 50%;
+}
+
+.lettuce, .cheese {
+    width: 40%;
+    height: 256px;
 }
